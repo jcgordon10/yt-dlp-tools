@@ -5,6 +5,9 @@ build-backend = "hatchling.build"
 [project]
 name = "yt-dlp-tools"
 version = "0.1.0"
+dependencies = [
+  "yt-dlp"
+]
 authors = [
   { name = "Jackson Gordon" },
 ]
